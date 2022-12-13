@@ -1,0 +1,145 @@
+#elipse {
+    position: absolute;
+    width: 420px;
+    height: 500px;
+    left: 0%;
+    top: 0%;
+}
+
+#nome {
+    position: absolute;
+    width: 104px;
+    height: 24px;
+    left: 155px;
+    top: 224px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: white;
+}
+
+#elipse2 {
+    position: absolute;
+    height: 181.1466981468623px;
+    width: 171.12594618550506px;
+    left: 110px;
+    top: 45px;
+    border-radius: 0px;
+
+}
+
+#zeus{
+    position: absolute;
+    background-image: url(../img/zeus.jpeg);
+    background-size: 100%;
+    width: 150px;
+    height: 160px;
+    
+    left: 121px;
+    top: 52px;
+
+    border-radius: 50%;
+
+}
+
+#preto {
+
+    position: absolute;
+    left: 166px;
+    top: 420px;
+
+}
+
+#lapis {
+    position: absolute;
+    left: 181px;
+    top: 435px;
+}
+
+#botoes {
+    position: relative;
+    top: 530px;
+    left: 65px;
+    
+    
+}
+
+#estrela {
+    position: absolute;
+    
+    width: 50px;;
+    left: 85px;
+    top: 550px;
+}
+
+#trofeu {
+    position: absolute;
+
+    width: 50px;;
+    left: 164px;
+    top: 553px;
+}
+
+#setas {
+    position: absolute;
+
+    width: 35px;
+    left: 252px;
+    top: 553px;
+}
+
+
+#qrCode{
+    position: relative;
+    left: 6vw;
+}
+
+#fig{
+position: absolute;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+top: 600px;
+left: 83px;
+
+color: black
+}
+
+#trof{
+    position: absolute;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+top: 600px;
+left: 163px;
+}
+
+#trocas{
+    position: absolute;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    
+    top: 600px;
+    left: 253px;
+}
+
+#body{
+    display: flex;
+    align-items: center;
+    
+}

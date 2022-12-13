@@ -1,0 +1,137 @@
+#Albuns {
+    position: absolute;
+    width: 740px;
+    height: 29px;
+    left: 23px;
+    top: 4px;
+
+    font-family: 'Typo Grotesk Rounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+/* #Recentes{
+    position: absolute;
+    width: 93px;
+    height: 28px;
+    left: 109px;
+    top: 5px;
+
+    font-family: 'Typo Grotesk Rounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+} */
+
+#Ativo {
+    position: absolute;
+    width: 55px;
+    height: 24px;
+    left: 54px;
+    top: 97px;
+
+    font-family: 'Typo Grotesk Rounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    user-select: none;
+    cursor: pointer;
+
+    color: #FFFFFF;
+
+}
+#Lançamento{
+    position: absolute;
+    width: 129px;
+    height: 21px;
+    left: 155px;
+    top: 97px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    user-select: none;
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+
+#Terminado{
+    position: absolute;
+    width: 104px;
+    height: 24px;
+    left: 290px;
+    top: 97px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    user-select: none;
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+
+#Retangulos{
+    position: absolute;
+    /* width: 1230px; */
+    height: 80px;
+    left: 20px;
+    top: 110px;
+    /* border: 1px solid #555 ; */
+    cursor: pointer;
+}
+
+/* #Ativo:holver{
+    background: #555;
+} */
+
+
+#box1{
+    position: absolute;
+    width: 188px;
+    height: 188px;
+    left: 12px;
+    top: 150px;
+
+    cursor: pointer;
+}
+
+#box2{
+    position: absolute;
+    width: 188px;
+    height: 188px;
+    left: 228px;
+    top: 150px;
+
+    cursor: pointer;
+}
+
+#vector{
+position: absolute;
+width: 420px;
+height: 580px;
+left: 0%;
+top: 0%;
+
+}
+
+body {
+    
+box-shadow: 4px 9px 18px rgba(0, 0, 0, 0.25);
+border-radius: 44px;
+}

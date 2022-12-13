@@ -1,0 +1,82 @@
+#container-father {
+  background-color: black;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#qr-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 31.87px;
+  border: 5px solid #88304e;
+  border-color: #88304e;
+  width: 76.32vw;
+  height: 34.04vh;
+}
+
+#image-figurinha{
+    position: absolute;
+}
+
+#figurinha-resgatada {
+    display: flex;
+    justify-content: space-around;
+  border: 1px solid #ff2e00;
+  border-radius: 35px;
+  color: white;
+
+  background-color: #ff2e00;
+  width: 76.32vw;
+  height: 34.04vh;
+}
+
+#card-title-container{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.card-titles{
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-end;
+    position: relative;
+}
+
+#info-icon{
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end; 
+    position: relative;
+}
+
+#button-resgatar {
+  border-radius: 17px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  background-color: #b92d10;
+  width: 86.74vw;
+  height: 7.26vh;
+
+
+
+
+}
+
+#button-resgatar a{
+ color: white;
+  text-decoration: none;
+  font-family: 'Arial';
+  font-style: normal;
+}
+

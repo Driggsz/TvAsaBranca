@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>p style="font-family: Arial" Animated Login Form</title>
+      <link rel="stylesheet" href="login.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <header>figs.com</header>
+
+         
+         
+            <div class="input-field">
+               <input type="text" required>
+               <label>E-mail ou nome de usuário</label>
+            </div>
+            <div class="input-field">
+               <input class="pswrd" type="password" required>
+               <span class="show">MOSTRAR</span>
+               <label>Senha</label>
+            </div>
+            <div class="button">
+               <a href="../perfilPage/pagperfil.html">
+                  <button>LOGIN</button>
+               </a>
+               
+            </div>
+         
+         <div class="auth">
+            Ou faça login com
+         </div>
+         <div class="links">
+            <div class="facebook">
+               <i class="fab fa-facebook-square"><span>Facebook</span></i>
+            </div>
+            <div class="google">
+               <i class="fab fa-google-plus-square"><span>Google</span></i>
+            </div>
+         </div>
+         <div class="signup">
+            Não possui um login ? <a href="../cadastro/cadastro.html"> CADASTRAR-SE
+            </a>
+         </div>
+         <div class="forgot">
+
+           <a href="../esqueciAsenha/esqueciasenha.html"> Esqueceu a senha ?  
+            
+      </a>
+         </div>
+      <script>
+         var input = document.querySelector('.pswrd');
+         var show = document.querySelector('.show');
+         show.addEventListener('click', active);
+         function active(){
+           if(input.type === "password"){
+             input.type = "text";
+             show.style.color = "#1DA1F2";
+             show.textContent = "ESCONDER";
+           }else{
+             input.type = "password";
+             show.textContent = "MOSTRAR";
+             show.style.color = "#111";
+           }
+         }
+      </script>
+   </body>
+</html>

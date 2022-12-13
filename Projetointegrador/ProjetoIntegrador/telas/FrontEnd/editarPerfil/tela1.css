@@ -1,0 +1,99 @@
+.imagem{
+    width:9rem ;
+    border: solid;
+    border-color: #BD1C07;
+    border-radius: 45rem;
+}
+.div1{
+    margin-left: 35rem;
+    width:9rem ;
+}
+.nick{
+    margin-left: 34rem; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mail{
+    margin-left:34rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey ;
+    margin-top: -0.563rem;
+}
+.div2{
+    margin-bottom: 2.5rem ;
+    margin-top: -1.7rem;
+}
+.bsclab{
+    color:0.0.0.0,64 ;
+    margin-left:38rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
+.bsclab2{
+    color:0.0.0.0,64 ;
+    margin-left:37rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+.bsclab3{
+    color:0.0.0.0,64 ;
+    margin-left:38rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+.bsclab4{
+    color:0.0.0.0,64 ;
+    margin-left:38rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+.bsclab5{
+    color:0.0.0.0,64 ;
+    margin-left:38rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+.bscinp{
+    align-items: center;
+    font-size: 1.25rem;
+    margin-left:27rem ;
+    margin-top: 0.625rem;
+    width:23.563rem ;
+    height: 2.5rem;
+    top:23.875rem ;
+    left: 1,625rem;
+    border-radius: 0.875rem ;
+    margin-bottom: 1.563rem;
+    background-color:#bcbcbc ;
+}
+.bscinp2{
+    align-items: center;
+    font-size: 1.25rem;
+    margin-left:27rem ;
+    margin-top: 0.625rem;
+    width:23.563rem ;
+    height: 2.5rem;
+    top:23.875rem ;
+    left: 1,625rem;
+    border-radius: 0.875rem ;
+    margin-bottom: 1.563rem;
+    background-color:#bcbcbc ;
+}
+.body{
+    margin-left: 10%;
+}
